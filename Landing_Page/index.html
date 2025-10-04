@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Simples</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        header {
+            background-color: #f3b7ee;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #000;
+        }
+
+        nav a:hover, nav a.active {
+            color: #555;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            text-align: left;
+        }
+
+        h2, h3, h4 {
+            margin-top: 30px;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            object-fit: cover;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        ul li {
+            padding: 10px;
+            flex: 1 1 120px;
+            text-align: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            display: block;
+        }
+
+        dl dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        dl dd {
+            margin-left: 0;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            border-left: 2px solid #d35bd7;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 15px auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f0f0f0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ludmila Manzoli</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Currículo/curriculo.html">Currículo</a>
+            <a href="https://github.com/soueualud">GitHub</a>
+            <a href="Serviço/servicos.html">Serviços</a>
+            <a href="Contato/contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h4>Olá, meu nome é Ludmila!</h4>
+        <img src="img/lud.png" alt="Minha foto" class="foto">
+
+        <h3>Resumo da minha história</h3>
+        <p>Eu nasci e cresci no Espírito Santo, mais especificamente em Vila Velha. Atualmente moro com meus pais, minha irmã e uma pinscher (que é a mais legal de toda a família). Desde pequena sou apaixonada por tudo que envolve tecnologia e adoro entender como esse universo funciona. Sempre joguei muito online e acho que isso foi o 'start' que eu precisava para começar a faculdade que estou fazendo hoje: Ciência da Computação.</p>
+
+        <p>Eu escolhi trabalhar como monitora de transporte escolar, acompanhando as crianças até a escola. Foi a melhor opção enquanto ainda não consigo um estágio, devido ao período da faculdade, pois me deixa com tempo livre para estudar, diferente de um trabalho de período integral. Esse, no entanto, não foi o meu primeiro emprego: trabalhei por três meses na loja de um familiar, o que me trouxe conhecimentos importantes e melhorou bastante minha comunicação. Precisei sair porque era em período integral.</p>
+
+        <p>Quando pequena, eu fazia vídeos para o YouTube. Já experimentei alguns esportes, como vôlei, balé, kickboxing e outros, mas nunca me encontrei verdadeiramente neles. Para não dizer que não pratico nenhum esporte, corro na praia quando consigo tempo. Sou uma pessoa bem caseira e a maioria das coisas que sei fazer aprendi em casa mesmo. Gosto bastante de cozinhar, faço maquiagens, penteados e unhas, e às vezes ajudo minha mãe nos trabalhos sociais da igreja, como catequista.</p>
+
+        <h3>Música Favorita</h3>
+        <p>Eu adoro música, de paixão. Sou bem eclética, gosto de tudo e mais um pouco, mas sou muito fã de indie, que se popularizou quando entramos em quarentena, na pandemia. A que eu mais escutava, e ainda escuto, é "Are You Bored Yet?", da banda Wallows. Vou deixar ela aqui embaixo, caso queira ouvir.</p> <p>PS: O começo é meio estranho, então se quiser ouvir a música vá para o segundo "0:23"</p>
+        
+        <audio controls style="width: 100%; max-width: 400px; display: block; margin: 15px auto;"> <source src="img/wallows.mp3" type="audio/mpeg"> 
+        </audio> 
+        <p>Clique <a href="https://www.letras.mus.br/wallows/are-you-bored-yet-feat-clairo/traducao.html" target="_blank" style="color: var(--rosa-forte);">aqui</a> para ver a letra da música</p> 
+        <p>Caso prefira fazer o download, clique <a href="img/wallows.mp3" download="wallows.mp3" type="audio.mpeg" style="color: var(--rosa-forte);">aqui</a></p> <hr class="hr-musica">
+
+        <h3>Série Favorita</h3>
+        <p>Também gosto muito de séries e filmes, no momento a minha série favorita é "Anne with an "E"", original da plataforma netflix</P>
+        
+       <img src="img/anne.jpeg" alt="Anne with an E" width="100%" style="max-width: 300px; height: auto; border-radius: 8px; display: block; margin: 15px auto;">
+
+        <h2>Trajetória Acadêmica</h2>
+        <p>Durante o meu fundamental, mudei de escola constantemente, me lembro de estudar na escola Oceano Atlântico, Sesi, Nep e Up. No ensino médio, me mudei para a escola estadual Francelina Carneiro Setúbal. Hoje sou estudante de Ciência da Computação na Universidade Vila Velha (UVV). Para o futuro, meu objetivo é me formar pela UVV, e quero fazer uma pós graduação, mas ainda estou pensando em qual àrea, visto que ainda estou no primeiro período. </p>
+        <p>Ainda sou caloura faz pouco tempo, mas já participei do inova week na minha faculdade que acontece do **15 a 18 de setembro**. O tema desse ano foi **"AI Facilities: For Best Generation"**, abordando o impacto da inteligência artificial nos negócios, produtos, processos, sistemas e serviços.
+          <br>O evento busca estimular a aplicação de metodologias ativas de aprendizagem, fomentar a cultura da inovação e do empreendedorismo e incentivar a integração entre os estudantes dos diversos cursos da UVV. </p>
+
+        <h2>Matérias Atuais</h2>
+        <p>No primeiro período do curso estou tendo as seguintes matérias:</p>
+        <dl>
+            <dt>Construção de Software para Web</dt>
+            <dd>Foca em criar sites e aplicações web, programando tanto a interface que o usuário vê (front-end) quanto a lógica do servidor (back-end).</dd>
+            <dt><strong>Design e Desenvolvimento de Banco de Dados I</strong></dt>
+            <dd>Ensina a modelar, criar e gerenciar bancos de dados usando a linguagem SQL para armazenar e organizar informações de forma eficiente.</dd>
+            <dt><strong>Experiência e Interface com o Usuário</strong></dt>
+            <dd>Trata de projetar sistemas fáceis e agradáveis de usar, focando em como o usuário se sente e interage com a tecnologia.</dd>
+            <dt><strong>Fundamentos de Tecnologia da Computação</strong></dt>
+            <dd>Apresenta os conceitos básicos de hardware, software e como os computadores representam e processam informações.</dd>
+            <dt><strong>Lógica para Computação</strong></dt>
+            <dd>Desenvolve o raciocínio lógico formal, essencial para a construção de algoritmos e a resolução de problemas em programação.</dd>
+            <dt><strong>Textos Científicos: Aspectos Metodológicos e Linguísticos</strong></dt>
+            <dd>Ensina a escrever e formatar trabalhos acadêmicos e artigos científicos seguindo as normas e a estrutura da metodologia científica.</dd>
+        </dl>
+
+        <h2>Links Rápidos</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/ludmila-manzoli-608a66338/">LinkedIn</a></li>
+            <li><a href="https://github.com/soueualud">GitHub</a></li>
+            <li><a href="Serviço/servicos.html">Serviços</a></li>
+            <li><a href="Contato/contato.html">Contato</a></li>
+            <li><a href="Currículo/curriculo.html">Currículo</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Ludmila Manzoli</p>
+    </footer>
+</body>
+</html>
